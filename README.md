@@ -22,18 +22,18 @@ It is built using **Streamlit + LangChain + FAISS + Gemini Embeddings**.
 ## 🚀 Features
 
 - 📄 Upload multiple PDF files
-- 🧠 AI-powered document understanding (RAG pipeline)
+-   AI-powered document understanding (RAG pipeline)
 - 🔎 Semantic search using FAISS vector database
 - 💬 Conversational chatbot interface
 - 📚 Source citations with expandable references
 - ⚡ Powered by Google Gemini (`gemini-2.5-flash`)
-- 🧩 Conversation memory support
-- 🖥️ Clean and interactive Streamlit UI
+-   Conversation memory support
+-   Clean and interactive Streamlit UI
 - 🔐 API key input via sidebar (no hardcoding)
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 PDF Upload
 ↓
 Text Extraction (PyMuPDF)
@@ -52,7 +52,7 @@ Answer + Source Documents
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Component        | Technology |
 |----------------|-----------|
@@ -92,7 +92,7 @@ http://localhost:8501
 
 ---
 
-💡 How to Use
+## 💡 How to Use
 1. Enter your Gemini API Key in the sidebar
 2. Upload one or more PDF files
 3. Click “Process PDFs”
@@ -116,14 +116,7 @@ The chatbot will:
 
 ---
 
-🧾 Project Structure
-app.py              # Main Streamlit application
-README.md           # Project documentation
-requirements.txt    # Dependencies
-
----
-
-⚙️ Key Components Explained
+## ⚙️ Key Components Explained
 🔹 Chunking
 Uses RecursiveCharacterTextSplitter to split documents into overlapping chunks for better retrieval accuracy.
 
@@ -138,7 +131,7 @@ ConversationalRetrievalChain combines retrieval + LLM generation.
 
 ---
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 📌 Add document upload history
 🌐 Deploy on Streamlit Cloud / HuggingFace Spaces
 🧾 Add PDF page-level citations
@@ -148,13 +141,13 @@ ConversationalRetrievalChain combines retrieval + LLM generation.
 
 ---
 
-⚠️ Limitations
+## ⚠️ Limitations
 Large PDFs may take time to process
 Requires valid Gemini API key
 Works best with text-based PDFs (not scanned images)
 
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 Muhammad Ali Waris Khan
 AI / ML Enthusiast | Building RAG Systems & LLM Applications
