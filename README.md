@@ -19,6 +19,10 @@ It is built using **Streamlit + LangChain + FAISS + Gemini Embeddings**.
 
 ---
 
+![Homepage](images/homepage.png)
+
+---
+
 ## 🚀 Features
 
 - 📄 Upload multiple PDF files
@@ -52,6 +56,10 @@ Answer + Source Documents
 
 ---
 
+![Chat Example](images/chat_example.png)
+
+---
+
 ## Tech Stack
 
 | Component        | Technology |
@@ -82,6 +90,10 @@ You need a Google Gemini API Key.
 Get it from:
 👉 https://ai.google.dev/
 No need for .env file — the app accepts it directly via Streamlit sidebar.
+
+---
+
+![API Required](images/api_required.png)
 
 ---
 
