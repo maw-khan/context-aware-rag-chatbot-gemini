@@ -31,13 +31,13 @@ It is built using **Streamlit + LangChain + FAISS + Gemini Embeddings**.
 ## 🚀 Features
 
 - 📄 Upload multiple PDF files
--   AI-powered document understanding (RAG pipeline)
+- 📦 AI-powered document understanding (RAG pipeline)
 - 🔎 Semantic search using FAISS vector database
 - 💬 Conversational chatbot interface
 - 📚 Source citations with expandable references
 - ⚡ Powered by Google Gemini (`gemini-2.5-flash`)
--   Conversation memory support
--   Clean and interactive Streamlit UI
+- 💾 Conversation memory support
+- 💡 Clean and interactive Streamlit UI
 - 🔐 API key input via sidebar (no hardcoding)
 
 ---
@@ -58,7 +58,7 @@ It is built using **Streamlit + LangChain + FAISS + Gemini Embeddings**.
 | Framework      | LangChain |
 | Vector DB      | FAISS |
 | PDF Processing  | PyMuPDF (`fitz`) |
-| Language       | Python |
+| Language       | Python (3.11) |
 
 ---
 
@@ -78,8 +78,6 @@ Get it from:
 👉 https://ai.google.dev/
 No need for .env file — the app accepts it directly via Streamlit sidebar.
 
----
-
 ![API Required](images/api_required.png)
 
 ---
@@ -87,10 +85,6 @@ No need for .env file — the app accepts it directly via Streamlit sidebar.
 ▶️ Run the Deployed App (Link):
 
 https://pdfcantalk.streamlit.app/
-
----
-
-![Chat Example](images/chat_example.png)
 
 ---
 
@@ -115,6 +109,8 @@ The chatbot will:
 - Retrieve relevant chunks
 - Generate an answer using Gemini
 - Show source excerpts used for reasoning
+  
+![Chat Example](images/chat_example.png)
 
 ---
 
@@ -134,12 +130,10 @@ ConversationalRetrievalChain combines retrieval + LLM generation.
 ---
 
 ## 🔮 Future Improvements
-📌 Add document upload history
-🌐 Deploy on Streamlit Cloud / HuggingFace Spaces
-🧾 Add PDF page-level citations
-🔐 Add user authentication
-📊 Add analytics dashboard
-💾 Save chat sessions permanently
+- 📌 Add document upload history
+- 🔐 Add user authentication
+- 📊 Add analytics dashboard
+- 💾 Save chat sessions permanently
 
 ---
 
