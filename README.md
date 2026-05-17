@@ -1,4 +1,8 @@
-# 🤖 Context-Aware RAG Chatbot (PDF Q&A with Gemini AI)
+# Context-Aware RAG Chatbot (PDF Q&A with Gemini AI)
+
+Deployed App Link:
+https://pdfcantalk.streamlit.app/
+
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)
@@ -44,10 +48,6 @@ It is built using **Streamlit + LangChain + FAISS + Gemini Embeddings**.
 
 ---
 
-![Chat Example](images/chat_example.png)
-
----
-
 ## Tech Stack
 
 | Component        | Technology |
@@ -84,10 +84,12 @@ No need for .env file — the app accepts it directly via Streamlit sidebar.
 
 ---
 
-▶️ Run the App
-streamlit run app.py
-Then open:
-http://localhost:8501
+▶️ Run the Deployed App (Link):
+
+https://pdfcantalk.streamlit.app/
+---
+
+![Chat Example](images/chat_example.png)
 
 ---
 
