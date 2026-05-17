@@ -1,5 +1,3 @@
-%%writefile pdf_loader.py
-
 import fitz
 from langchain.docstore.document import Document
 
