@@ -1,4 +1,4 @@
-# Context-Aware RAG Chatbot (PDF Q&A with Gemini AI)
+# 🤖 Context-Aware RAG Chatbot (PDF Q&A with Gemini AI)
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)
