@@ -1,15 +1,16 @@
 # Context-Aware RAG Chatbot (PDF Q&A with Gemini AI)
 
-Deployed App Link:
-https://pdfcantalk.streamlit.app/
-
-
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)
 ![LangChain](https://img.shields.io/badge/LangChain-RAG-green.svg)
 ![Google Gemini](https://img.shields.io/badge/LLM-Gemini%202.5-blueviolet.svg)
 ![FAISS](https://img.shields.io/badge/VectorDB-FAISS-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
+
+---
+
+Deployed App Link:
+https://pdfcantalk.streamlit.app/
 
 ---
 
