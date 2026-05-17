@@ -38,21 +38,9 @@ It is built using **Streamlit + LangChain + FAISS + Gemini Embeddings**.
 ---
 
 ## System Architecture
-PDF Upload
-↓
-Text Extraction (PyMuPDF)
-↓
-Text Chunking (LangChain Splitter)
-↓
-Embedding Generation (Gemini Embeddings)
-↓
-Vector Storage (FAISS Index)
-↓
-Query Retrieval (Top-K Similar Chunks)
-↓
-LLM Response Generation (Gemini 2.5 Flash)
-↓
-Answer + Source Documents
+
+![Architecture](images/Architecture.png) 
+
 
 ---
 
