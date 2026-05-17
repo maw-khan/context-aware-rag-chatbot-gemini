@@ -46,7 +46,6 @@ It is built using **Streamlit + LangChain + FAISS + Gemini Embeddings**.
 
 ![Architecture](images/Architecture.png) 
 
-
 ---
 
 ## Tech Stack
@@ -88,6 +87,7 @@ No need for .env file — the app accepts it directly via Streamlit sidebar.
 ▶️ Run the Deployed App (Link):
 
 https://pdfcantalk.streamlit.app/
+
 ---
 
 ![Chat Example](images/chat_example.png)
@@ -144,12 +144,12 @@ ConversationalRetrievalChain combines retrieval + LLM generation.
 ---
 
 ## ⚠️ Limitations
-Large PDFs may take time to process
-Requires valid Gemini API key
-Works best with text-based PDFs (not scanned images)
+- Large PDFs may take time to process
+- Requires valid Gemini API key
+- Works best with text-based PDFs (not scanned images)
 
 ---
 
 ## 👨‍💻 Author
 Muhammad Ali Waris Khan
-AI / ML Enthusiast | Building RAG Systems & LLM Applications
+- AI / ML Enthusiast | Building RAG Systems & LLM Applications
