@@ -1,6 +1,6 @@
 # Context-Aware RAG Chatbot (PDF Q&A with Gemini AI)
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)
 ![LangChain](https://img.shields.io/badge/LangChain-RAG-green.svg)
 ![Google Gemini](https://img.shields.io/badge/LLM-Gemini%202.5-blueviolet.svg)
