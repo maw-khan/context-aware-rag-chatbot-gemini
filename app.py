@@ -2,8 +2,6 @@
 import os
 import streamlit as st
 
-from dotenv import load_dotenv
-
 from utils.pdf_loader import load_pdf_documents
 from utils.chunking import split_documents
 from utils.embeddings import load_embedding_model
