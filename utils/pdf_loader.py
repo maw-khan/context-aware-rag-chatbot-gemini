@@ -1,6 +1,5 @@
-
-import fitz
-from langchain.docstore.document import Document
+from langchain_community.document_loaders import PyPDFLoader
+import tempfile
 
 
 def load_pdf_documents(uploaded_files):
@@ -9,27 +8,19 @@ def load_pdf_documents(uploaded_files):
 
     for uploaded_file in uploaded_files:
 
-        pdf_document = fitz.open(
-            stream=uploaded_file.read(),
-            filetype="pdf"
-        )
+        with tempfile.NamedTemporaryFile(
+            delete=False,
+            suffix=".pdf"
+        ) as tmp_file:
 
-        for page_num in range(len(pdf_document)):
+            tmp_file.write(uploaded_file.read())
 
-            page = pdf_document[page_num]
+            tmp_path = tmp_file.name
 
-            text = page.get_text()
+        loader = PyPDFLoader(tmp_path)
 
-            if text.strip():
+        docs = loader.load()
 
-                documents.append(
-                    Document(
-                        page_content=text,
-                        metadata={
-                            "source": uploaded_file.name,
-                            "page": page_num + 1
-                        }
-                    )
-                )
+        documents.extend(docs)
 
     return documents
