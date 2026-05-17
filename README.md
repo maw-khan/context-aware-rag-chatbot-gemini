@@ -1,4 +1,4 @@
-# 🤖 Context-Aware RAG Chatbot (PDF Q&A with Gemini AI)
+# Context-Aware RAG Chatbot (PDF Q&A with Gemini AI)
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)
@@ -78,8 +78,7 @@ Answer + Source Documents
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/your-username/rag-pdf-chatbot.git
-cd rag-pdf-chatbot
+git clone https://github.com/maw-khan/context-aware-rag-chatbot-gemini.git
 pip install -r requirements.txt
 ```
 
